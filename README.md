@@ -156,6 +156,7 @@ Amir Gholami\* , Sehoon Kim\* , Zhen Dong\* , Zhewei Yao\* , Michael W. Mahoney,
 - [[arXiv](https://arxiv.org/abs/2404.00456)] QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs [[code](https://github.com/spcl/QuaRot)] ![GitHub Repo stars](https://img.shields.io/github/stars/spcl/QuaRot)
 - [[arXiv](https://arxiv.org/abs/2404.01892)] Minimize Quantization Output Error with Bias Compensation [[code](https://github.com/GongCheng1919/bias-compensation)] ![GitHub Repo stars](https://img.shields.io/github/stars/GongCheng1919/bias-compensation)
 - [[arXiv](https://arxiv.org/abs/2404.02837)] Cherry on Top: Parameter Heterogeneity and Quantization in Large Language Models
+- [[CVPR](https://arxiv.org/abs/2405.03144)] PTQ4SAM: Post-Training Quantization for Segment Anything
 
 ### 2023
 
@@ -540,6 +541,7 @@ Amir Gholami\* , Sehoon Kim\* , Zhen Dong\* , Zhewei Yao\* , Michael W. Mahoney,
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Regularizing_Activation_Distribution_for_Training_Binarized_Deep_Networks_CVPR_2019_paper.pdf)] [36:fire:] Regularizing Activation Distribution for Training Binarized Deep Networks. [**`bnn`**]
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_A_MainSubsidiary_Network_Framework_for_Simplifying_Binary_Neural_Networks_CVPR_2019_paper.pdf)] A Main/Subsidiary Network Framework for Simplifying Binary Neural Network. [**`bnn`**]
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Binary_Ensemble_Neural_Network_More_Bits_per_Network_or_More_CVPR_2019_paper.pdf)] Binary Ensemble Neural Network: More Bits per Network or More Networks per Bit? [**`bnn`**]
+- [[CVPR](https://arxiv.org/abs/1808.05779)] Learning to Quantize Deep Networks by Optimizing Quantization Intervals with Task Loss [**`qnn`**]
 - [[FPGA](https://arxiv.org/abs/1810.02068)] Towards Fast and Energy-Efficient Binarized Neural Network Inference on FPGA. [**`bnn`**] [**`hardware`**]
 - [[GLSVLSI](https://dl.acm.org/doi/pdf/10.1145/3299874.3318034)] Binarized Depthwise Separable Neural Network for Object Tracking in FPGA. [**`bnn`**] [**`hardware`**]
 - [[ICCV](https://arxiv.org/abs/1908.05033)] [55:fire:] Differentiable Soft Quantization: Bridging Full-Precision and Low-Bit Neural Networks. [**`qnn`**]
