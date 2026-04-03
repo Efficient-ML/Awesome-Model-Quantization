@@ -30,7 +30,6 @@ This repo collects papers, documents, and codes about model quantization for any
   year={2023}
 }</code></pre></details>
 
-
 **2. An empirical study of LLaMA3 quantization: from LLMs to MLLMs** [[Paper](https://link.springer.com/article/10.1007/s44267-024-00070-x)] [[Code](https://github.com/Macaronlin/LLaMA3-Quantization)] [![GitHub stars](https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization?style=social)](https://github.com/Macaronlin/LLaMA3-Quantization)
 
 **Venue:** Visual Intelligence 2024
@@ -50,7 +49,6 @@ This repo collects papers, documents, and codes about model quantization for any
   publisher={Springer}
 }</code></pre></details>
 
-
 **3. An Empirical Study of Qwen3 Quantization** [[Paper](https://arxiv.org/abs/2505.02214)] [[Code](https://github.com/Efficient-ML/Qwen3-Quantization)] [![GitHub stars](https://img.shields.io/github/stars/Efficient-ML/Qwen3-Quantization?style=social)](https://github.com/Efficient-ML/Qwen3-Quantization)
 
 **Venue:** Visual Intelligence 2026
@@ -66,7 +64,6 @@ This repo collects papers, documents, and codes about model quantization for any
   year={2025}
 }</code></pre></details>
 
-
 **4. LLMC: Benchmarking Large Language Model Quantization with a Versatile Compression Toolkit** [[Paper](https://aclanthology.org/2024.emnlp-industry.12/)] [[Code](https://github.com/ModelTC/LightCompress)] [![GitHub stars](https://img.shields.io/github/stars/ModelTC/LightCompress?style=social)](https://github.com/ModelTC/LightCompress)
 
 **Venue:** EMNLP 2024 Industry Track
@@ -75,6 +72,14 @@ This repo collects papers, documents, and codes about model quantization for any
 
 ![llmc](./Imgs/llmc.png)
 
+<details><summary>Bibtex</summary><pre><code>@inproceedings{gong2024llmc,
+  title={Llmc: Benchmarking large language model quantization with a versatile compression toolkit},
+  author={Gong, Ruihao and Yong, Yang and Gu, Shiqiao and Huang, Yushi and Lv, Chengtao and Zhang, Yunchen and Tao, Dacheng and Liu, Xianglong},
+  booktitle={Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track},
+  pages={132--152},
+  year={2024}
+}</code></pre></details>
+
 **5. RobustMQ: Benchmarking Robustness of Quantized Models** [[Paper](https://link.springer.com/article/10.1007/s44267-023-00031-w)]
 
 **Venue:** Visual Intelligence 2023
@@ -82,6 +87,17 @@ This repo collects papers, documents, and codes about model quantization for any
 **Authors:** Yisong Xiao, Aishan Liu, Tianyuan Zhang, Haotong Qin, Jinyang Guo, Xianglong Liu.
 
 ![robustmq](./Imgs/robustmq.png)
+
+<details><summary>Bibtex</summary><pre><code>@article{xiao2023robustmq,
+  title={Robustmq: benchmarking robustness of quantized models},
+  author={Xiao, Yisong and Liu, Aishan and Zhang, Tianyuan and Qin, Haotong and Guo, Jinyang and Liu, Xianglong},
+  journal={Visual Intelligence},
+  volume={1},
+  number={1},
+  pages={30},
+  year={2023},
+  publisher={Springer}
+}</code></pre></details>
 
 ## Survey Papers
 
@@ -103,7 +119,6 @@ This repo collects papers, documents, and codes about model quantization for any
     year = "2020"
 }</code></pre></details>
 
-
 **2. A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms** [[Paper](https://www.sciencedirect.com/science/article/pii/S0893608025007361)]
 
 **Venue:** Neural Networks 2025
@@ -111,6 +126,30 @@ This repo collects papers, documents, and codes about model quantization for any
 **Authors:** Ruihao Gong, Yifu Ding, Zining Wang, Chengtao Lv, Xingyu Zheng, Jinyang Du, Yang Yong, Shiqiao Gu, Haotong Qin, Jinyang Guo, Dahua Lin, Michele Magno, Xianglong Liu.
 
 ![A Survey of Low-bit Large Language Models](./Imgs/llm-survey.png)
+
+<details><summary>Bibtex</summary><pre><code>@article{gong2025survey,
+  title={A survey of low-bit large language models: Basics, systems, and algorithms},
+  author={Gong, Ruihao and Ding, Yifu and Wang, Zining and Lv, Chengtao and Zheng, Xingyu and Du, Jinyang and Yong, Yang and Gu, Shiqiao and Qin, Haotong and Guo, Jinyang and others},
+  journal={Neural networks},
+  pages={107856},
+  year={2025},
+  publisher={Elsevier}
+}</code></pre></details>
+
+**3. Low-bit Model Quantization for Deep Neural Networks: A Survey** [[Paper](https://arxiv.org/abs/2505.05530)]
+
+**Venue:** arXiv 2025
+
+**Authors:** Kai Liu, Qian Zheng, Kaiwen Tao, Zhiteng Li, Haotong Qin, Wenbo Li, Yong Guo, Xianglong Liu, Linghe Kong, Guihai Chen, Yulun Zhang, Xiaokang Yang.
+
+![quant-survey](/Users/haotongqin/GitHub/Awesome-Model-Quantization/Imgs/quant-survey.png)
+
+<details><summary>Bibtex</summary><pre><code>@article{liu2025low,
+  title={Low-bit model quantization for deep neural networks: A survey},
+  author={Liu, Kai and Zheng, Qian and Tao, Kaiwen and Li, Zhiteng and Qin, Haotong and Li, Wenbo and Guo, Yong and Liu, Xianglong and Kong, Linghe and Chen, Guihai and others},
+  journal={arXiv preprint arXiv:2505.05530},
+  year={2025}
+}</code></pre></details>
 
 ## Papers
 
@@ -138,6 +177,43 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/2601.03170)] QuantLRM: Quantization of Large Reasoning Models via Fine-Tuning Signals
 - [[arXiv](https://arxiv.org/abs/2602.15391)] SliderQuant: Accurate Post-Training Quantization for LLMs
 - [[arXiv](https://arxiv.org/abs/2602.04719)] What Makes Low-Bit Quantization-Aware Training Work for Reasoning LLMs? A Systematic Study
+
+- [[ICLR](https://openreview.net/forum?id=yjr2jX41qO)] Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference
+- [[ICLR](https://openreview.net/forum?id=ATpchFiBQi)] CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts
+- [[ICLR](https://arxiv.org/abs/2510.11696)] QeRL: Beyond Efficiency - Quantization-enhanced Reinforcement Learning for LLMs [[code](https://github.com/NVlabs/QeRL)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/QeRL?style=social)](https://github.com/NVlabs/QeRL)
+- [[ICLR](https://arxiv.org/abs/2602.03782)] AutoQVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization
+- [[ICLR](https://openreview.net/forum?id=g2l9bg9DWx)] Achieving low-bit Muon through subspace preservation and grid quantization
+- [[ICLR](https://openreview.net/forum?id=DAZvMAlZRp)] Shift-and-Sum Quantization for Visual Autoregressive Models
+- [[ICLR](https://arxiv.org/abs/2602.03472)] Inlier-Centric Post-Training Quantization for Object Detection Models
+- [[ICLR](https://openreview.net/forum?id=yiMlVBAoQi)] Efficient Quantization of Mixture-of-Experts with Theoretical Generalization Guarantees
+- [[ICLR](https://openreview.net/forum?id=tY9yPAT3PU)] BBQ: Boosting Quantization Entropy with Bell Box Quantization
+- [[ICLR](https://arxiv.org/abs/2505.06653)] Improving Block-Wise LLM Quantization by 4-bit Block-Wise Optimal Float (BOF4): Analysis and Variations [[code](https://github.com/ifnspaml/bof4)] [![GitHub stars](https://img.shields.io/github/stars/ifnspaml/bof4?style=social)](https://github.com/ifnspaml/bof4)
+- [[ICLR](https://arxiv.org/abs/2510.18259)] Learning under Quantization for High-Dimensional Linear Regression
+- [[ICLR](https://arxiv.org/abs/2509.25214)] On-the-Fly Adaptation to Quantization: Configuration-Aware LoRA for Efficient Fine-Tuning of Quantized LLMs
+- [[ICLR](https://arxiv.org/abs/2509.23202)] Bridging the Gap Between Promise and Performance for FP4 Quantization [[code](https://github.com/IST-DASLab/FP-Quant)] [![GitHub stars](https://img.shields.io/github/stars/IST-DASLab/FP-Quant?style=social)](https://github.com/IST-DASLab/FP-Quant)
+- [[ICLR](https://arxiv.org/abs/2602.11184)] KBVQ-MoE: KLT-guided SVD with Bias-Corrected Vector Quantization for MoE Large Language Models [[code](https://github.com/xuzukang/kbvq_moe)] [![GitHub stars](https://img.shields.io/github/stars/xuzukang/kbvq_moe?style=social)](https://github.com/xuzukang/kbvq_moe)
+- [[ICLR](https://arxiv.org/abs/2512.03383)] UniQL: Unified Quantization and Low-rank Compression for Adaptive Edge LLMs [[code](https://github.com/enyac-group/UniQL)] [![GitHub stars](https://img.shields.io/github/stars/enyac-group/UniQL?style=social)](https://github.com/enyac-group/UniQL)
+- [[ICLR](https://arxiv.org/abs/2508.01077)] The Lattice Geometry of Neural Network Quantization: A Short Equivalence Proof of GPTQ and Babai's algorithm
+- [[ICLR](https://arxiv.org/abs/2509.03472)] DPQuant: Efficient and Private Model Training via Dynamic Quantization Scheduling
+- [[ICLR](https://openreview.net/pdf/ee0ea14cd2283b1fee1902a6811796b443849c5c.pdf)] Towards Quantization-Aware Training for Ultra-Low-Bit Reasoning LLMs
+- [[ICLR](https://arxiv.org/abs/2510.21314)] A Convergence Analysis of Adaptive Optimizers under Floating-point Quantization
+- [[ICLR](https://arxiv.org/abs/2510.06213)] Training Dynamics Impact Post-Training Quantization Robustness [[code](https://github.com/aldakata/TrainingDynamicsQuantizationRobustness)] [![GitHub stars](https://img.shields.io/github/stars/aldakata/TrainingDynamicsQuantizationRobustness?style=social)](https://github.com/aldakata/TrainingDynamicsQuantizationRobustness)
+- [[ICLR](https://openreview.net/forum?id=pjMDZJd4rT)] SSDi8: Accurate and Efficient 8-bit Quantization for State Space Duality
+- [[ICLR](https://arxiv.org/abs/2507.18553)] The Geometry of LLM Quantization: GPTQ as Babai's Nearest Plane Algorithm
+- [[ICLR](https://arxiv.org/abs/2601.21238)] PTQ4ARVG: Post-Training Quantization for AutoRegressive Visual Generation Models [[code](https://github.com/BienLuky/PTQ4ARVG)] [![GitHub stars](https://img.shields.io/github/stars/BienLuky/PTQ4ARVG?style=social)](https://github.com/BienLuky/PTQ4ARVG)
+- [[ICLR](https://arxiv.org/abs/2509.17428)] QWHA: Quantization-Aware Walsh-Hadamard Adaptation for Parameter-Efficient Fine-Tuning on Large Language Models [[code](https://github.com/vantaa89/qwha)] [![GitHub stars](https://img.shields.io/github/stars/vantaa89/qwha?style=social)](https://github.com/vantaa89/qwha)
+- [[ICLR](https://arxiv.org/abs/2602.01289)] Gradient-Aligned Calibration for Post-Training Quantization of Diffusion Models
+- [[ICLR](https://openreview.net/forum?id=nFjj8NEBqv)] SERQ: Saliency-Aware Low-Rank Error Reconstruction for LLM Quantization
+- [[ICLR](https://arxiv.org/abs/2509.22935)] Compute-Optimal Quantization-Aware Training
+- [[ICLR](https://arxiv.org/abs/2505.18610)] PM-KVQ: Progressive Mixed-precision KV Cache Quantization for Long-CoT LLMs [[code](https://github.com/thu-nics/PM-KVQ)] [![GitHub stars](https://img.shields.io/github/stars/thu-nics/PM-KVQ?style=social)](https://github.com/thu-nics/PM-KVQ)
+- [[ICLR](https://arxiv.org/abs/2509.23500)] Beyond Outliers: A Study of Optimizers Under Quantization
+- [[ICLR](https://arxiv.org/abs/2505.11695)] Qronos: Correcting the Past by Shaping the Future... in Post-Training Quantization
+- [[ICLR](https://arxiv.org/abs/2508.02343)] MicroMix: Efficient Mixed-Precision Quantization with Microscaling Formats for Large Language Models [[code](https://github.com/lwy2020/MicroMix)] [![GitHub stars](https://img.shields.io/github/stars/lwy2020/MicroMix?style=social)](https://github.com/lwy2020/MicroMix)
+- [[ICLR](https://arxiv.org/abs/2602.04929)] TurboBoA: Faster and Exact Attention-aware Quantization without Backpropagation
+- [[ICLR](https://openreview.net/forum?id=FDdOD3qwS7)] Beyond Uniformity: Sample and Frequency Meta Weighting for Post-Training Quantization of Diffusion Models
+- [[ICLR](https://openreview.net/forum?id=LWYZ1nNkJl)] Rethinking Residual Errors in Compensation-based LLM Quantization
+- [[ICLR](https://openreview.net/forum?id=8tDIzHFOx6)] SPR²Q: Static Priority-based Rectifier Routing Quantization for Image Super-Resolution [[code](https://github.com/momo5-a11/SPR2Q)] [![GitHub stars](https://img.shields.io/github/stars/momo5-a11/SPR2Q?style=social)](https://github.com/momo5-a11/SPR2Q)
+- [[ICLR](https://arxiv.org/abs/2510.26771)] STaMP: Sequence Transformation and Mixed Precision for Low-Precision Activation Quantization
 
 ### 2025
 
@@ -193,6 +269,52 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[ACL Findings](https://aclanthology.org/2025.findings-acl.459/)] Achieving Binary Weight and Activation for LLMs using Post-Training Quantization
 - [[EMNLP Findings](https://aclanthology.org/2025.findings-emnlp.943/)] KurTail: Kurtosis-based LLM Quantization
 - [[SIGMOD](https://dl.acm.org/doi/10.1145/3725413)] Practical and Asymptotically Optimal Quantization of High-Dimensional Vectors in Euclidean Space for Approximate Nearest Neighbor Search [[code](https://github.com/VectorDB-NTU/Extended-RaBitQ)] [![GitHub stars](https://img.shields.io/github/stars/VectorDB-NTU/Extended-RaBitQ?style=social)](https://github.com/VectorDB-NTU/Extended-RaBitQ)
+
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/119764)] QBasicVSR: Temporal Awareness Adaptation Quantization for Video Super-Resolution
+- [[NeurIPS](https://arxiv.org/abs/2504.09629)] Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/115665)] Point4Bit: Post Training 4-bit Quantization for Point Cloud 3D Detection
+- [[NeurIPS](https://arxiv.org/abs/2505.12266)] PMQ-VE: Progressive Multi-Frame Quantization for Video Enhancement [[code](https://github.com/xiaoBIGfeng/PMQ-VE)] [![GitHub stars](https://img.shields.io/github/stars/xiaoBIGfeng/PMQ-VE?style=social)](https://github.com/xiaoBIGfeng/PMQ-VE)
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/115090)] VETA-DiT: Variance-Equalized and Temporally Adaptive Quantization for Efficient 4-bit Diffusion Transformers
+- [[NeurIPS](https://arxiv.org/abs/2505.18724)] LoTA-QAF: Lossless Ternary Adaptation for Quantization-Aware Fine-Tuning [[code](https://github.com/KingdalfGoodman/LoTA-QAF/blob/main/README.md)] [![GitHub stars](https://img.shields.io/github/stars/KingdalfGoodman/LoTA-QAF?style=social)](https://github.com/KingdalfGoodman/LoTA-QAF)
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/117708)] Efficient Multi-bit Quantization Network Training via Weight Bias Correction and Bit-wise Coreset Sampling
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/119554)] Efficient and Generalizable Mixed-Precision Quantization via Topological Entropy
+- [[NeurIPS](https://neurips.cc/virtual/2025/poster/119301)] QSCA: Quantization with Self-Compensating Auxiliary for Monocular Depth Estimation
+- [[ICCV](https://arxiv.org/abs/2404.19248)] Scheduling Weight Transitions for Quantization-Aware Training [[code](https://github.com/cvlab-yonsei/TRS)] [![GitHub stars](https://img.shields.io/github/stars/cvlab-yonsei/TRS?style=social)](https://github.com/cvlab-yonsei/TRS)
+- [[ICCV](https://arxiv.org/abs/2507.16782)] Task-Specific Zero-shot Quantization-Aware Training for Object Detection [[code](https://github.com/DFQ-Dojo/dfq-toolkit)] [![GitHub stars](https://img.shields.io/github/stars/DFQ-Dojo/dfq-toolkit?style=social)](https://github.com/DFQ-Dojo/dfq-toolkit)
+- [[ICCV](https://arxiv.org/abs/2503.10959)] OuroMamba: A Data-Free Quantization Framework for Vision Mamba
+- [[ICCV](https://arxiv.org/abs/2506.23516)] FedWSQ: Efficient Federated Learning with Weight Standardization and Distribution-Aware Non-Uniform Quantization [[code](https://github.com/Seongyeol-kim/FedWSQ)] [![GitHub stars](https://img.shields.io/github/stars/Seongyeol-kim/FedWSQ?style=social)](https://github.com/Seongyeol-kim/FedWSQ)
+- [[ICCV](https://arxiv.org/abs/2412.16553)] Semantic Alignment and Reinforcement for Data-Free Quantization of Vision Transformers [[code](https://github.com/zysxmu/SARDFQ)] [![GitHub stars](https://img.shields.io/github/stars/zysxmu/SARDFQ?style=social)](https://github.com/zysxmu/SARDFQ)
+- [[ICCV](https://arxiv.org/abs/2503.06545)] QuantCache: Adaptive Importance-Guided Quantization with Hierarchical Latent and Layer Caching for Video Generation [[code](https://github.com/JunyiWuCode/QuantCache)] [![GitHub stars](https://img.shields.io/github/stars/JunyiWuCode/QuantCache?style=social)](https://github.com/JunyiWuCode/QuantCache)
+- [[ICCV](https://arxiv.org/abs/2507.19131)] MixA-Q: Revisiting Activation Sparsity for Vision Transformers from a Mixed-Precision Quantization Perspective
+- [[ICCV](https://arxiv.org/abs/2507.12933)] DMQ: Dissecting Outliers of Diffusion Models for Post-Training Quantization [[code](https://github.com/LeeDongYeun/dmq)] [![GitHub stars](https://img.shields.io/github/stars/LeeDongYeun/dmq?style=social)](https://github.com/LeeDongYeun/dmq)
+- [[ICCV](https://arxiv.org/abs/2503.03088)] AHCPTQ: Accurate and Hardware-Compatible Post-Training Quantization for Segment Anything Model
+- [[ICCV](https://arxiv.org/abs/2507.22349)] MSQ: Memory-Efficient Bit Sparsification Quantization
+- [[ICCV](https://arxiv.org/abs/2402.03666)] QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning [[code](https://github.com/hatchetProject/QuEST)] [![GitHub stars](https://img.shields.io/github/stars/hatchetProject/QuEST?style=social)](https://github.com/hatchetProject/QuEST)
+- [[ICML](https://arxiv.org/abs/2505.05799)] MxMoE: Mixed-precision Quantization for MoE with Accuracy and Performance Co-Design [[code](https://github.com/cat538/MxMoE)] [![GitHub stars](https://img.shields.io/github/stars/cat538/MxMoE?style=social)](https://github.com/cat538/MxMoE)
+- [[ICML](https://arxiv.org/abs/2505.04877)] Learning from Loss Landscape: Generalizable Mixed-Precision Quantization via Adaptive Sharpness-Aware Gradient Aligning
+- [[ICML](https://arxiv.org/abs/2503.15748)] PARQ: Piecewise-Affine Regularized Quantization [[code](https://github.com/facebookresearch/parq)] [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/parq?style=social)](https://github.com/facebookresearch/parq)
+- [[ICML](https://arxiv.org/abs/2503.22879)] Quamba2: A Robust and Scalable Post-training Quantization Framework for Selective State Space Models [[code](https://github.com/enyac-group/Quamba)] [![GitHub stars](https://img.shields.io/github/stars/enyac-group/Quamba?style=social)](https://github.com/enyac-group/Quamba)
+- [[ICML](https://openreview.net/forum?id=G6DmP9wxeB)] LRA-QViT: Integrating Low-Rank Approximation and Quantization for Robust and Efficient Vision Transformers
+- [[ICML](https://arxiv.org/abs/2406.13474)] BoA: Attention-aware Post-training Quantization without Backpropagation
+- [[ICML](https://arxiv.org/abs/2505.03804)] MoEQuant: Enhancing Quantization for Mixture-of-Experts Large Language Models via Expert-Balanced Sampling and Affinity Guidance [[code](https://github.com/chenzx921020/MoEQuant)] [![GitHub stars](https://img.shields.io/github/stars/chenzx921020/MoEQuant?style=social)](https://github.com/chenzx921020/MoEQuant)
+- [[ICML](https://arxiv.org/abs/2502.09720)] NestQuant: nested lattice quantization for matrix products and LLMs
+- [[ICML](https://arxiv.org/abs/2506.20251)] Q-resafe: Assessing Safety Risks and Quantization-aware Safety Patching for Quantized Large Language Models [[code](https://github.com/Thecommonirin/Qresafe)] [![GitHub stars](https://img.shields.io/github/stars/Thecommonirin/Qresafe?style=social)](https://github.com/Thecommonirin/Qresafe)
+- [[ICML](https://arxiv.org/abs/2410.09615)] SLiM: One-shot Quantization and Sparsity with Low-rank Approximation for LLM Weight Compression [[code](https://github.com/Paramathic/slim)] [![GitHub stars](https://img.shields.io/github/stars/Paramathic/slim?style=social)](https://github.com/Paramathic/slim)
+- [[ICML](https://arxiv.org/abs/2410.06020)] QT-DoG: Quantization-Aware Training for Domain Generalization [[code](https://github.com/saqibjaved1/QT-DoG)] [![GitHub stars](https://img.shields.io/github/stars/saqibjaved1/QT-DoG?style=social)](https://github.com/saqibjaved1/QT-DoG)
+- [[ICML](https://arxiv.org/abs/2502.06786)] Matryoshka Quantization
+- [[ICML](https://arxiv.org/abs/2505.23651)] Merge-Friendly Post-Training Quantization for Multi-Target Domain Adaptation [[code](https://github.com/ewsn1593/HDRQ)] [![GitHub stars](https://img.shields.io/github/stars/ewsn1593/HDRQ?style=social)](https://github.com/ewsn1593/HDRQ)
+- [[ICML](https://arxiv.org/abs/2505.14371)] Layer-wise Quantization for Quantized Optimistic Dual Averaging
+- [[ICML](https://openreview.net/forum?id=w5fONAEwra)] Outlier-Aware Post-Training Quantization for Discrete Graph Diffusion Models
+- [[ICML](https://arxiv.org/abs/2501.01144)] BlockDialect: Block-wise Fine-grained Mixed Format Quantization for Energy-Efficient LLM Inference
+- [[ICML](https://arxiv.org/abs/2504.02692)] GPTAQ: Efficient Finetuning-Free Quantization with Asymmetric Calibration [[code](https://github.com/Intelligent-Computing-Lab-Panda/GPTAQ)] [![GitHub stars](https://img.shields.io/github/stars/Intelligent-Computing-Lab-Panda/GPTAQ?style=social)](https://github.com/Intelligent-Computing-Lab-Panda/GPTAQ)
+- [[ICML](https://arxiv.org/abs/2501.17116)] Optimizing Large Language Model Training Using FP4 Quantization
+- [[ICML](https://arxiv.org/abs/2412.04180)] SKIM: Any-bit Quantization Pushing The Limits of Post-Training Quantization
+- [[ICML](https://arxiv.org/abs/2411.10958)] SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization [[code](https://github.com/thu-ml/SageAttention)] [![GitHub stars](https://img.shields.io/github/stars/thu-ml/SageAttention?style=social)](https://github.com/thu-ml/SageAttention)
+- [[AAAI](https://arxiv.org/abs/2409.14330)] Thinking in Granularity: Dynamic Quantization for Image Super-Resolution by Intriguing Multi-Granularity Clues [[code](https://github.com/MmmingS/Granular-DQ)] [![GitHub stars](https://img.shields.io/github/stars/MmmingS/Granular-DQ?style=social)](https://github.com/MmmingS/Granular-DQ)
+- [[AAAI](https://arxiv.org/abs/2501.08180)] D2-DPM: Dual Denoising for Quantized Diffusion Probabilistic Models [[code](https://github.com/TaylorJocelyn/D2-DPM)] [![GitHub stars](https://img.shields.io/github/stars/TaylorJocelyn/D2-DPM?style=social)](https://github.com/TaylorJocelyn/D2-DPM)
+- [[CVPR](https://arxiv.org/abs/2411.13918)] Quantization without Tears
+- [[CVPR](https://arxiv.org/abs/2504.02508)] APHQ-ViT: Post-Training Quantization with Average Perturbation Hessian Based Reconstruction for Vision Transformer [[code](https://github.com/GoatWu/APHQ-ViT)] [![GitHub stars](https://img.shields.io/github/stars/GoatWu/APHQ-ViT?style=social)](https://github.com/GoatWu/APHQ-ViT)
+- [[ICLR](https://openreview.net/forum?id=2rnOgyFQgb)] SynQ: Accurate Zero-shot Quantization by Synthesis-aware Fine-tuning [[code](https://github.com/snudm-starlab/SynQ)] [![GitHub stars](https://img.shields.io/github/stars/snudm-starlab/SynQ?style=social)](https://github.com/snudm-starlab/SynQ)
 
 ### 2024
 
@@ -290,6 +412,22 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/2402.05628)] RepQuant: Towards Accurate Post-Training Quantization of Large Transformer Models via Scale Reparameterization
 - [[SIGMOD](https://dl.acm.org/doi/10.1145/3654970)] RaBitQ: Quantizing High-Dimensional Vectors with a Theoretical Error Bound for Approximate Nearest Neighbor Search [[code](https://github.com/gaoj0017/RaBitQ)] [![GitHub stars](https://img.shields.io/github/stars/gaoj0017/RaBitQ?style=social)](https://github.com/gaoj0017/RaBitQ)
 
+- [[AAAI](https://arxiv.org/abs/2401.16760)] One-Step Forward and Backtrack: Overcoming Zig-Zagging in Loss-Aware Quantization Training
+- [[ICML](https://arxiv.org/abs/2405.03103)] Learning from students: Applying t-distributions to explore accurate and efficient formats for llms [[code](https://github.com/cornell-zhang/llm-datatypes)] [![GitHub stars](https://img.shields.io/github/stars/cornell-zhang/llm-datatypes?style=social)](https://github.com/cornell-zhang/llm-datatypes)
+- [[ICML](https://arxiv.org/abs/2403.12422)] Jetfire: Efficient and Accurate Transformer Pretraining with INT8 Data Flow and Per-Block Quantization
+- [[ICML](https://openreview.net/forum?id=fM9xTkpAdu)] Reshape and Adapt for Output Quantization (RAOQ): Quantization-aware Training for In-memory Computing Systems
+- [[ICML](https://arxiv.org/abs/2402.04396)] QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks [[code](https://github.com/Cornell-RelaxML/quip-sharp)] [![GitHub stars](https://img.shields.io/github/stars/Cornell-RelaxML/quip-sharp?style=social)](https://github.com/Cornell-RelaxML/quip-sharp)
+- [[NeurIPS](https://arxiv.org/abs/2402.08958)] Towards Next-Level Post-Training Quantization of Hyper-Scale Transformers [[code](https://github.com/SamsungLabs/aespa)] [![GitHub stars](https://img.shields.io/github/stars/SamsungLabs/aespa?style=social)](https://github.com/SamsungLabs/aespa)
+- [[NeurIPS](https://arxiv.org/abs/2406.00800)] MagR: Weight Magnitude Reduction for Enhancing Post-Training Quantization [[code](https://github.com/aozhongzhang/magr)] [![GitHub stars](https://img.shields.io/github/stars/aozhongzhang/magr?style=social)](https://github.com/aozhongzhang/magr)
+- [[NeurIPS](https://arxiv.org/abs/2405.18137)] Exploiting LLM Quantization
+- [[NeurIPS](https://openreview.net/forum?id=HfpV6u0kbX)] Efficient Multi-task LLM Quantization and Serving for Multiple LoRA Adapters
+- [[NeurIPS](https://arxiv.org/abs/2406.11235)] QTIP: Quantization with Trellises and Incoherence Processing [[code](https://github.com/Cornell-RelaxML/qtip)] [![GitHub stars](https://img.shields.io/github/stars/Cornell-RelaxML/qtip?style=social)](https://github.com/Cornell-RelaxML/qtip)
+- [[NeurIPS](https://openreview.net/forum?id=dYIqAZXQNV)] Generalizing CNNs to graphs with learnable neighborhood quantization [[code](https://github.com/Grosenick-Lab-Cornell/QuantNets)] [![GitHub stars](https://img.shields.io/github/stars/Grosenick-Lab-Cornell/QuantNets?style=social)](https://github.com/Grosenick-Lab-Cornell/QuantNets)
+- [[NeurIPS](https://arxiv.org/abs/2410.15526)] SDP4Bit: Toward 4-bit Communication Quantization in Sharded Data Parallelism for LLM Training [[code](https://github.com/ByteDance-Seed/SDP4Bit)] [![GitHub stars](https://img.shields.io/github/stars/ByteDance-Seed/SDP4Bit?style=social)](https://github.com/ByteDance-Seed/SDP4Bit)
+- [[NeurIPS](https://papers.nips.cc/paper_files/paper/2024/file/ab6a2c6ee757afe43882121281f6065c-Paper-Conference.pdf)] Optimal and Approximate Adaptive Stochastic Quantization [[code](https://github.com/ranbenbasat/QUIVER)] [![GitHub stars](https://img.shields.io/github/stars/ranbenbasat/QUIVER?style=social)](https://github.com/ranbenbasat/QUIVER)
+- [[NeurIPS](https://arxiv.org/abs/2404.02837)] Cherry on Top: Parameter Heterogeneity and Quantization in Large Language Models
+- [[NeurIPS](https://openreview.net/forum?id=cEtExbAKYV)] StepbaQ: Stepping backward as Correction for Quantized Diffusion Models
+
 ### 2023
 
 - [[ICML](https://proceedings.mlr.press/v202/qin23a.html)] BiBench: Benchmarking and Analyzing Network Binarization [[code](https://github.com/htqin/BiBench)] [![GitHub stars](https://img.shields.io/github/stars/htqin/BiBench?style=social)](https://github.com/htqin/BiBench)
@@ -370,6 +508,16 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/2310.16795)] QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models
 - [[arXiv](https://arxiv.org/abs/2304.01089)] RPTQ: Reorder-based Post-training Quantization for Large Language Models [[code](https://github.com/hahnyuan/RPTQ4LLM)] [![GitHub stars](https://img.shields.io/github/stars/hahnyuan/RPTQ4LLM?style=social)](https://github.com/hahnyuan/RPTQ4LLM)
 - [[arXiv](https://arxiv.org/abs/2310.17723)] ZeroQuant-HERO: Hardware-Enhanced Robust Optimized Post-Training Quantization Framework for W8A8 Transformers
+
+- [[AAAI](https://arxiv.org/abs/2211.16187)] Quantization-Aware Interval Bound Propagation for Training Certifiably Robust Quantized Neural Networks [[code](https://github.com/mlech26l/quantization_aware_ibp)] [![GitHub stars](https://img.shields.io/github/stars/mlech26l/quantization_aware_ibp?style=social)](https://github.com/mlech26l/quantization_aware_ibp)
+- [[ICLR](https://openreview.net/forum?id=s1KljJpAukm)] PowerQuant:Automorphism Search For Non-Uniform Quantization
+- [[ICLR](https://openreview.net/forum?id=VWm4o4l3V9e)] Block and Subword-Scaling Floating-Point (BSFP) : An Efficient Non-Uniform Quantization For Low Precision Inference
+- [[NeurIPS](https://arxiv.org/abs/2203.14645)] REx: Data-Free Residual Quantization Error Expansion
+- [[NeurIPS](https://arxiv.org/abs/2305.19268)] Intriguing Properties of Quantization at Scale
+- [[NeurIPS](https://arxiv.org/abs/2306.11987)] Training Transformers with 4-bit Integers [[code](https://github.com/xijiu9/Train_Transformers_with_INT4)] [![GitHub stars](https://img.shields.io/github/stars/xijiu9/Train_Transformers_with_INT4?style=social)](https://github.com/xijiu9/Train_Transformers_with_INT4)
+- [[NeurIPS](https://papers.nips.cc/paper_files/paper/2023/file/400a2e6a82520b690810b97fd67fcc4e-Paper-Conference.pdf)] Towards Efficient and Accurate Winograd Convolution via Full Quantization
+- [[NeurIPS](https://papers.nips.cc/paper_files/paper/2023/file/c48bc80aa5d3cbbdd712d1cc107b8319-Paper-Conference.pdf)] Pruning vs Quantization: Which is Better? [[code](https://github.com/Qualcomm-AI-research/pruning-vs-quantization)] [![GitHub stars](https://img.shields.io/github/stars/Qualcomm-AI-research/pruning-vs-quantization?style=social)](https://github.com/Qualcomm-AI-research/pruning-vs-quantization)
+- [[ICLR](https://openreview.net/forum?id=7L2mgi0TNEP)] A^2Q: Aggregation-Aware Quantization for Graph Neural Networks
 
 ### 2022
 
@@ -461,6 +609,11 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](http://arxiv.org/abs/2206.15408)] Sub-8-Bit Quantization Aware Training for 8-Bit Neural Network Accelerator with On-Device Speech Recognition
 - [[tinyML Research Symposium](https://arxiv.org/pdf/2203.05025.pdf)] Power-of-Two Quantization for Low Bitwidth and Hardware Compliant Neural Networks
 
+- [[ECCV](https://arxiv.org/abs/2207.10345)] CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution
+- [[ECCV](https://arxiv.org/abs/2207.10188)] Bitwidth-Adaptive Quantization-Aware Neural Network Training: A Meta-Learning Approach [[code](https://github.com/jsjs0369/MEBQAT)] [![GitHub stars](https://img.shields.io/github/stars/jsjs0369/MEBQAT?style=social)](https://github.com/jsjs0369/MEBQAT)
+- [[ECCV](https://arxiv.org/abs/2007.07743)] Fine-grained Data Distribution Alignment for Post-Training Quantization [[code](https://github.com/zysxmu/FDDA)] [![GitHub stars](https://img.shields.io/github/stars/zysxmu/FDDA?style=social)](https://github.com/zysxmu/FDDA)
+- [[ICML](https://arxiv.org/abs/2206.06501)] Optimal Clipping and Magnitude-aware Differentiation for Improved Quantization-aware Training
+
 ### 2021
 
 - [[CVPR](https://arxiv.org/abs/2103.01049)] Diversifying Sample Generation for Accurate Data-Free Quantization
@@ -519,6 +672,14 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/1911.07346)] Any-Precision Deep Neural Networks [[code](https://github.com/SHI-Labs/Any-Precision-DNNs)] [![GitHub stars](https://img.shields.io/github/stars/SHI-Labs/Any-Precision-DNNs?style=social)](https://github.com/SHI-Labs/Any-Precision-DNNs)
 - [[arXiv](http://arxiv.org/abs/2103.12369)] ReCU: Reviving the Dead Weights in Binary Neural Networks [[code](https://github.com/z-hXu/ReCU)] [![GitHub stars](https://img.shields.io/github/stars/z-hXu/ReCU?style=social)](https://github.com/z-hXu/ReCU)
 
+- [[AAAI](https://cdn.aaai.org/ojs/16263/16263-13-19757-1-2-20210518.pdf)] Training Binary Neural Network without Batch Normalization for Image Super-Resolution
+- [[AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/16306)] SA-BNN: State-­Aware Binary Neural Network
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2021/papers/Oh_Automated_Log-Scale_Quantization_for_Low-Cost_Deep_Neural_Networks_CVPR_2021_paper.pdf)] Automated Log-Scale Quantization for Low-Cost Deep Neural Networks
+- [[CVPR](https://openaccess.thecvf.com/content/CVPR2021/papers/Kryzhanovskiy_QPP_Real-Time_Quantization_Parameter_Prediction_for_Deep_Neural_Networks_CVPR_2021_paper.pdf)] QPP: Real-Time Quantization Parameter Prediction for Deep Neural Networks
+- [[ICLR](https://arxiv.org/abs/2006.10518)] Improving Post Training Neural Quantization: Layer-wise Calibration and Integer Programming [[code](https://github.com/itayhubara/CalibTIP)] [![GitHub stars](https://img.shields.io/github/stars/itayhubara/CalibTIP?style=social)](https://github.com/itayhubara/CalibTIP)
+- [[ICML](https://proceedings.mlr.press/v139/hubara21a/hubara21a.pdf)] Accurate Post Training Quantization With Small Calibration Sets
+- [[NeurIPS](https://arxiv.org/abs/2105.08952)] BatchQuant: Quantized-for-all Architecture Search with Robust Quantizer
+
 ### 2020
 
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qin_Forward_and_Backward_Information_Retention_for_Accurate_Binary_Neural_Networks_CVPR_2020_paper.pdf)] Forward and Backward Information Retention for Accurate Binary Neural Networks [[code](https://github.com/htqin/IR-Net)] [![GitHub stars](https://img.shields.io/github/stars/htqin/IR-Net?style=social)](https://github.com/htqin/IR-Net)
@@ -535,7 +696,7 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Han_GhostNet_More_Features_From_Cheap_Operations_CVPR_2020_paper.pdf)] GhostNet: More Features from Cheap Operations
 - [[CVPR](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w40/Yu_Low-Bit_Quantization_Needs_Good_Distribution_CVPRW_2020_paper.pdf)] Low-Bit Quantization Needs Good Distribution
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Wu_Rotation_Consistent_Margin_Loss_for_Efficient_Low-Bit_Face_Recognition_CVPR_2020_paper.pdf)] Rotation Consistent Margin Loss for Efficient Low-Bit Face Recognition
-- [[CoRR](https://arxiv.org/pdf/2002.10778.pdf)] Training Binary Neural Networks using the Bayesian Learning Rule
+- [[arXiv](https://arxiv.org/pdf/2002.10778.pdf)] Training Binary Neural Networks using the Bayesian Learning Rule
 - [[DATE](https://ieeexplore.ieee.org/document/9116220)] BNNsplit: Binarized Neural Networks for embedded distributed FPGA-based computing systems
 - [[DATE](https://ieeexplore.ieee.org/abstract/document/9116308)] OrthrusPE: Runtime Reconfigurable Processing Elements for Binary Neural Networks
 - [[DATE](https://arxiv.org/abs/1912.04050)] PhoneBit: Efficient GPU-Accelerated Binary Neural Network Inference Engine for Mobile Phones
@@ -607,6 +768,11 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/2006.07522)] Understanding Learning Dynamics of Binary Neural Networks via Information Bottleneck
 - [[paper](https://www.researchgate.net/publication/343568789_Towards_Lossless_Binary_Convolutional_Neural_Networks_Using_Piecewise_Approximation)] Towards Lossless Binary Convolutional Neural Networks Using Piecewise Approximation
 
+- [[CVPR](https://arxiv.org/abs/2001.00281)] ZeroQ: A Novel Zero Shot Quantization Framework [[code](https://github.com/amirgholami/ZeroQ)] [![GitHub stars](https://img.shields.io/github/stars/amirgholami/ZeroQ?style=social)](https://github.com/amirgholami/ZeroQ)
+- [[CVPR](https://arxiv.org/abs/1912.09666)] AdaBits: Neural Network Quantization With Adaptive Bit-Widths [[code](https://github.com/deJQK/AdaBits)] [![GitHub stars](https://img.shields.io/github/stars/deJQK/AdaBits?style=social)](https://github.com/deJQK/AdaBits)
+- [[CVPR](https://arxiv.org/abs/1912.08883)] Adaptive Loss-aware Quantization for Multi-bit Networks [[code](https://github.com/zqu1992/ALQ)] [![GitHub stars](https://img.shields.io/github/stars/zqu1992/ALQ?style=social)](https://github.com/zqu1992/ALQ)
+- [[ECCV](https://arxiv.org/abs/2007.09952)] HMQ: Hardware Friendly Mixed Precision Quantization Block for CNNs [[code](https://github.com/sony-si/ai-research)] [![GitHub stars](https://img.shields.io/github/stars/sony-si/ai-research?style=social)](https://github.com/sony-si/ai-research)
+
 ### 2019
 
 - [[AAAI](https://www.aaai.org/ojs/index.php/AAAI/article/view/4273/4151)] Efficient Quantization for Neural Networks with Binary Weights and Low Bitwidth Activations
@@ -625,12 +791,12 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Regularizing_Activation_Distribution_for_Training_Binarized_Deep_Networks_CVPR_2019_paper.pdf)] Regularizing Activation Distribution for Training Binarized Deep Networks
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cao_SeerNet_Predicting_Convolutional_Neural_Network_Feature-Map_Sparsity_Through_Low-Bit_Quantization_CVPR_2019_paper.pdf)] SeerNet: Predicting Convolutional Neural Network Feature-Map Sparsity Through Low-Bit Quantization
 - [[CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhuang_Structured_Binary_Neural_Networks_for_Accurate_Image_Classification_and_Semantic_CVPR_2019_paper.pdf)] Structured Binary Neural Networks for Accurate Image Classification and Semantic Segmentation
-- [[CoRR](https://arxiv.org/pdf/1906.08637.pdf)] Back to Simplicity: How to Train Accurate BNNs from Scratch? [[code](https://github.com/hpi-xnor/BMXNet-v2)] [![GitHub stars](https://img.shields.io/github/stars/hpi-xnor/BMXNet-v2?style=social)](https://github.com/hpi-xnor/BMXNet-v2)
-- [[CoRR](https://arxiv.org/abs/1911.10862)] Binarized Neural Architecture Search
-- [[CoRR](http://arxiv.org/abs/1904.05868)] Improved training of binary networks for human pose estimation and image recognition
-- [[CoRR](https://arxiv.org/pdf/1904.07852.pdf)] Matrix and tensor decompositions for training binary neural networks
-- [[CoRR](https://arxiv.org/abs/1908.07748)] RBCN: Rectified Binary Convolutional Networks for Enhancing the Performance of 1-bit DCNNs
-- [[CoRR](https://arxiv.org/abs/1912.10103)] TentacleNet: A Pseudo-Ensemble Template for Accurate Binary Convolutional Neural Networks
+- [[arXiv](https://arxiv.org/pdf/1906.08637.pdf)] Back to Simplicity: How to Train Accurate BNNs from Scratch? [[code](https://github.com/hpi-xnor/BMXNet-v2)] [![GitHub stars](https://img.shields.io/github/stars/hpi-xnor/BMXNet-v2?style=social)](https://github.com/hpi-xnor/BMXNet-v2)
+- [[arXiv](https://arxiv.org/abs/1911.10862)] Binarized Neural Architecture Search
+- [[arXiv](http://arxiv.org/abs/1904.05868)] Improved training of binary networks for human pose estimation and image recognition
+- [[arXiv](https://arxiv.org/pdf/1904.07852.pdf)] Matrix and tensor decompositions for training binary neural networks
+- [[arXiv](https://arxiv.org/abs/1908.07748)] RBCN: Rectified Binary Convolutional Networks for Enhancing the Performance of 1-bit DCNNs
+- [[arXiv](https://arxiv.org/abs/1912.10103)] TentacleNet: A Pseudo-Ensemble Template for Accurate Binary Convolutional Neural Networks
 - [[FPGA](https://arxiv.org/abs/1810.02068)] Towards Fast and Energy-Efficient Binarized Neural Network Inference on FPGA
 - [[GLSVLSI](https://dl.acm.org/doi/pdf/10.1145/3299874.3318034)] Binarized Depthwise Separable Neural Network for Object Tracking in FPGA
 - [[ICCV](https://arxiv.org/pdf/1908.06314.pdf)] Bayesian optimized 1-bit cnns
@@ -684,8 +850,8 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Faraone_SYQ_Learning_Symmetric_CVPR_2018_paper.pdf)] SYQ: Learning Symmetric Quantization For Efficient Deep Neural Networks [[code](https://www.github.com/julianfaraone/SYQ)]
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhuang_Towards_Effective_Low-Bitwidth_CVPR_2018_paper.pdf)] Towards Effective Low-bitwidth Convolutional Neural Networks
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Two-Step_Quantization_for_CVPR_2018_paper.pdf)] Two-Step Quantization for Low-bit Neural Networks
-- [[CoRR](https://arxiv.org/pdf/1801.06313.pdf)] BinaryRelax: A Relaxation Approach For Training Deep Neural Networks With Quantized Weights
-- [[CoRR](https://arxiv.org/abs/1802.02178)] LightNN: Filling the Gap between Conventional Deep Neural Networks and Binarized Networks
+- [[arXiv](https://arxiv.org/pdf/1801.06313.pdf)] BinaryRelax: A Relaxation Approach For Training Deep Neural Networks With Quantized Weights
+- [[arXiv](https://arxiv.org/abs/1802.02178)] LightNN: Filling the Gap between Conventional Deep Neural Networks and Binarized Networks
 - [[ECCV](https://openaccess.thecvf.com/content_ECCV_2018/papers/zechun_liu_Bi-Real_Net_Enhancing_ECCV_2018_paper.pdf)] Bi-Real Net: Enhancing the Performance of 1-bit CNNs With Improved Representational Capability and Advanced Training Algorithm [[code](https://github.com/liuzechun/Bi-Real-net)] [![GitHub stars](https://img.shields.io/github/stars/liuzechun/Bi-Real-net?style=social)](https://github.com/liuzechun/Bi-Real-net)
 - [[ECCV](https://openaccess.thecvf.com/content_ECCV_2018/papers/Dongqing_Zhang_Optimized_Quantization_for_ECCV_2018_paper.pdf)] LQ-Nets: Learned Quantization for Highly Accurate and Compact Deep Neural Networks [[code](https://github.com/microsoft/LQ-Nets)] [![GitHub stars](https://img.shields.io/github/stars/microsoft/LQ-Nets?style=social)](https://github.com/microsoft/LQ-Nets)
 - [[ECCV](https://yan-junjie.github.io/publication/dblp-confeccv-wei-pqoy-18/dblp-confeccv-wei-pqoy-18.pdf)] Quantization Mimic: Towards Very Tiny CNN for Object Detection
@@ -719,7 +885,7 @@ This repo collects papers, documents, and codes about model quantization for any
 
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2017/papers/Cai_Deep_Learning_With_CVPR_2017_paper.pdf)] Deep Learning with Low Precision by Half-wave Gaussian Quantization [[code](https://github.com/zhaoweicai/hwgq)] [![GitHub stars](https://img.shields.io/github/stars/zhaoweicai/hwgq?style=social)](https://github.com/zhaoweicai/hwgq)
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2017/papers/Juefei-Xu_Local_Binary_Convolutional_CVPR_2017_paper.pdf)] Local Binary Convolutional Neural Networks [[code](https://github.com/juefeix/lbcnn.torch)] [![GitHub stars](https://img.shields.io/github/stars/juefeix/lbcnn.torch?style=social)](https://github.com/juefeix/lbcnn.torch)
-- [[CoRR](https://arxiv.org/pdf/1705.09864.pdf)] BMXNet: An Open-Source Binary Neural Network Implementation Based on MXNet [[code](https://github.com/hpi-xnor)]
+- [[arXiv](https://arxiv.org/pdf/1705.09864.pdf)] BMXNet: An Open-Source Binary Neural Network Implementation Based on MXNet [[code](https://github.com/hpi-xnor)]
 - [[FPGA](https://arxiv.org/abs/1612.07119)] FINN: A Framework for Fast, Scalable Binarized Neural Network Inference
 - [[ICASSP](https://arxiv.org/abs/1702.08171)] Fixed-point optimization of deep neural networks with adaptive step size retraining
 - [[ICCV](https://openaccess.thecvf.com/content_ICCV_2017/papers/Bulat_Binarized_Convolutional_Landmark_ICCV_2017_paper.pdf)] Binarized Convolutional Landmark Localizers for Human Pose Estimation and Face Alignment with Limited Resources [[code](https://www.adrianbulat.com/binary-cnn-landmarks)]
@@ -740,7 +906,7 @@ This repo collects papers, documents, and codes about model quantization for any
 ### 2016
 
 - [[CVPR](https://openaccess.thecvf.com/content_cvpr_2016/html/Wu_Quantized_Convolutional_Neural_CVPR_2016_paper.html)] Quantized convolutional neural networks for mobile devices. [code](https://github.com/jiaxiang-wu/quantized-cnn)
-- [[CoRR](http://arxiv.org/abs/1606.06160)] DoReFa-Net: Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients [[code](https://github.com/tensorpack/tensorpack/tree/master/examples/DoReFa-Net)] [![GitHub stars](https://img.shields.io/github/stars/tensorpack/tensorpack?style=social)](https://github.com/tensorpack/tensorpack)
+- [[arXiv](http://arxiv.org/abs/1606.06160)] DoReFa-Net: Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients [[code](https://github.com/tensorpack/tensorpack/tree/master/examples/DoReFa-Net)] [![GitHub stars](https://img.shields.io/github/stars/tensorpack/tensorpack?style=social)](https://github.com/tensorpack/tensorpack)
 - [[ECCV](https://arxiv.org/abs/1603.05279)] XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks [[code](https://github.com/allenai/XNOR-Net)] [![GitHub stars](https://img.shields.io/github/stars/allenai/XNOR-Net?style=social)](https://github.com/allenai/XNOR-Net)
 - [[ICASSP](https://arxiv.org/abs/1512.01322)] Fixed-point Performance Analysis of Recurrent Neural Networks
 - [[NeurIPS](https://arxiv.org/pdf/1602.02830)] Binarized Neural Networks: Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1 [[code](https://github.com/itayhubara/BinaryNet)] [![GitHub stars](https://img.shields.io/github/stars/itayhubara/BinaryNet?style=social)](https://github.com/itayhubara/BinaryNet)
