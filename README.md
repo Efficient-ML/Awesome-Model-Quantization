@@ -12,6 +12,7 @@ This repo collects papers, documents, and codes about model quantization for any
   - [Survey\_of\_Binarization](#survey_of_binarization)
   - [Survey\_of\_Quantization](#survey_of_quantization)
 - [Papers](#papers)
+  - [2025](#2025)
   - [2024](#2024)
   - [2023](#2023)
   - [2022](#2022)
@@ -108,6 +109,10 @@ Amir Gholami\* , Sehoon Kim\* , Zhen Dong\* , Zhewei Yao\* , Michael W. Mahoney,
 **Keywords**: **`qnn`**: quantized neural networks | **`bnn`**: binarized neural networks | **`hardware`**: hardware deployment | **`snn`**: spiking neural networks | **`other`**
 
 ----
+
+### 2025
+
+- [[ICML](https://arxiv.org/abs/2505.07004)] GuidedQuant: Large Language Model Quantization via Exploiting End Loss Guidance [[code](https://github.com/snu-mllab/GuidedQuant)]![GitHub Repo stars](https://img.shields.io/github/stars/snu-mllab/GuidedQuant)
 
 ### 2024
 
