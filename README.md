@@ -1,4 +1,4 @@
-# Awesome Model Quantization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Model Quantization [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This repo collects papers, documents, and codes about model quantization for anyone who wants to research it. We are continuously improving the project. Welcome to PR the works (papers, repositories) that the repo misses.
 
