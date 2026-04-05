@@ -142,7 +142,7 @@ This repo collects papers, documents, and codes about model quantization for any
 
 **Authors:** Kai Liu, Qian Zheng, Kaiwen Tao, Zhiteng Li, Haotong Qin, Wenbo Li, Yong Guo, Xianglong Liu, Linghe Kong, Guihai Chen, Yulun Zhang, Xiaokang Yang.
 
-![quant-survey](/Users/haotongqin/GitHub/Awesome-Model-Quantization/Imgs/quant-survey.png)
+![quant-survey](./Imgs/quant-survey.png)
 
 <details><summary>Bibtex</summary><pre><code>@article{liu2025low,
   title={Low-bit model quantization for deep neural networks: A survey},
