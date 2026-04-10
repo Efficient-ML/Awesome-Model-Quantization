@@ -175,7 +175,7 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[ICLR](https://openreview.net/forum?id=VpZ8YYdBmT)] Improving Block-Wise LLM Quantization by 4-bit Generalized Normal Float Formats
 - [[arXiv](https://arxiv.org/abs/2602.16018)] D²Quant: Accurate Low-bit Post-Training Weight Quantization for LLMs
 - [[arXiv](https://arxiv.org/abs/2601.03170)] QuantLRM: Quantization of Large Reasoning Models via Fine-Tuning Signals
-- [[arXiv](https://arxiv.org/abs/2602.15391)] SliderQuant: Accurate Post-Training Quantization for LLMs
+- [[arXiv](https://arxiv.org/pdf/2603.25284v1)] SliderQuant: Accurate Post-Training Quantization for LLMs 
 - [[arXiv](https://arxiv.org/abs/2602.04719)] What Makes Low-Bit Quantization-Aware Training Work for Reasoning LLMs? A Systematic Study
 - [[ICLR](https://openreview.net/forum?id=yjr2jX41qO)] Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference
 - [[ICLR](https://openreview.net/forum?id=ATpchFiBQi)] CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts
