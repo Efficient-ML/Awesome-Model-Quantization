@@ -176,7 +176,7 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[arXiv](https://arxiv.org/abs/2602.16018)] D²Quant: Accurate Low-bit Post-Training Weight Quantization for LLMs
 - [[arXiv](https://arxiv.org/abs/2601.03170)] QuantLRM: Quantization of Large Reasoning Models via Fine-Tuning Signals
 - [[arXiv](https://arxiv.org/pdf/2603.25284v1)] SliderQuant: Accurate Post-Training Quantization for LLMs 
-- [[arXiv](https://arxiv.org/abs/2602.04719)] What Makes Low-Bit Quantization-Aware Training Work for Reasoning LLMs? A Systematic Study
+- [[arXiv](https://arxiv.org/abs/2601.14888)] What Makes Low-Bit Quantization-Aware Training Work for Reasoning LLMs? A Systematic Study
 - [[ICLR](https://openreview.net/forum?id=yjr2jX41qO)] Channel-Aware Mixed-Precision Quantization for Efficient Long-Context Inference
 - [[ICLR](https://openreview.net/forum?id=ATpchFiBQi)] CodeQuant: Unified Clustering and Quantization for Enhanced Outlier Smoothing in Low-Precision Mixture-of-Experts
 - [[ICLR](https://arxiv.org/abs/2510.11696)] QeRL: Beyond Efficiency - Quantization-enhanced Reinforcement Learning for LLMs [[code](https://github.com/NVlabs/QeRL)] [![GitHub stars](https://img.shields.io/github/stars/NVlabs/QeRL?style=social)](https://github.com/NVlabs/QeRL)
