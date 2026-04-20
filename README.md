@@ -155,6 +155,9 @@ This repo collects papers, documents, and codes about model quantization for any
 
 ### 2026
 
+- **[arXiv'26]** [OneComp: One-Line Revolution for Generative AI Model Compression](https://arxiv.org/abs/2603.28845). *Yuma Ichikawa et al.* [[Code](https://github.com/FujitsuResearch/OneCompression)]
+- **[NeurIPS'25]** [Quantization Error Propagation: Revisiting Layer-Wise Post-Training Quantization](https://openreview.net/forum?id=a3l3K9khbL). *Yamato Arai, Yuma Ichikawa.* [[Code](https://github.com/FujitsuResearch/OneCompression)]
+
 - [[ICLR](https://openreview.net/forum?id=7QZanjCD6M)] PT²-LLM: Post-Training Ternarization for Large Language Models [[code](https://github.com/XIANGLONGYAN/PT2-LLM)] [![GitHub stars](https://img.shields.io/github/stars/XIANGLONGYAN/PT2-LLM?style=social)](https://github.com/XIANGLONGYAN/PT2-LLM)
 - [[ICLR](https://openreview.net/forum?id=HD7tuVakmR)] Quant-dLLM: Post-Training Extreme Low-Bit Quantization for Diffusion Large Language Models
 - [[ICLR](https://openreview.net/forum?id=3AnRMvlVDw)] DVD-Quant: Data-free Video Diffusion Transformers Quantization
