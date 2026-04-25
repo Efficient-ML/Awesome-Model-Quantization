@@ -170,7 +170,6 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[ICLR](https://openreview.net/forum?id=VQIvBpL5ag)] Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs [[code](https://github.com/csguoh/OBR)] [![GitHub stars](https://img.shields.io/github/stars/csguoh/OBR?style=social)](https://github.com/csguoh/OBR)
 - [[ICLR](https://openreview.net/forum?id=XPIEkFdEDi)] AnyBCQ: Hardware Efficient Flexible Binary-Coded Quantization for Multi-Precision LLMs [[code](https://github.com/naver-aics/anybcq)] [![GitHub stars](https://img.shields.io/github/stars/naver-aics/anybcq?style=social)](https://github.com/naver-aics/anybcq)
 - [[ICLR](https://openreview.net/forum?id=9CZzD5LWdy)] Tequila: Deadzone-free Ternary Quantization for Large Language Models
-- [[arXiv](https://arxiv.org/abs/2601.07892)] Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification [[code](https://github.com/Tencent/AngelSlim)] [![GitHub stars](https://img.shields.io/github/stars/Tencent/AngelSlim?style=social)](https://github.com/Tencent/AngelSlim)
 - [[ICLR](https://openreview.net/forum?id=V85HbymBLW)] LogART: Pushing the Limit of Efficient Logarithmic Post-Training Quantization [[code](https://github.com/logart-lab/logart)] [![GitHub stars](https://img.shields.io/github/stars/logart-lab/logart?style=social)](https://github.com/logart-lab/logart)
 - [[ICLR](https://openreview.net/forum?id=1USeVjsKau)] ParoQuant: Pairwise Rotation Quantization for Efficient Reasoning LLM Inference [[code](https://github.com/z-lab/paroquant)] [![GitHub stars](https://img.shields.io/github/stars/z-lab/paroquant?style=social)](https://github.com/z-lab/paroquant)
 - [[ICLR](https://openreview.net/forum?id=VpZ8YYdBmT)] Improving Block-Wise LLM Quantization by 4-bit Generalized Normal Float Formats
@@ -210,6 +209,7 @@ This repo collects papers, documents, and codes about model quantization for any
 - [[ICLR](https://openreview.net/forum?id=LWYZ1nNkJl)] Rethinking Residual Errors in Compensation-based LLM Quantization
 - [[ICLR](https://openreview.net/forum?id=8tDIzHFOx6)] SPR²Q: Static Priority-based Rectifier Routing Quantization for Image Super-Resolution [[code](https://github.com/momo5-a11/SPR2Q)] [![GitHub stars](https://img.shields.io/github/stars/momo5-a11/SPR2Q?style=social)](https://github.com/momo5-a11/SPR2Q)
 - [[ICLR](https://arxiv.org/abs/2510.26771)] STaMP: Sequence Transformation and Mixed Precision for Low-Precision Activation Quantization
+- [[arXiv](https://arxiv.org/abs/2601.07892)] Sherry: Hardware-Efficient 1.25-Bit Ternary Quantization via Fine-grained Sparsification [[code](https://github.com/Tencent/AngelSlim)] [![GitHub stars](https://img.shields.io/github/stars/Tencent/AngelSlim?style=social)](https://github.com/Tencent/AngelSlim)
 - [[arXiv](https://arxiv.org/abs/2602.16018)] D²Quant: Accurate Low-bit Post-Training Weight Quantization for LLMs
 - [[arXiv](https://arxiv.org/abs/2601.03170)] QuantLRM: Quantization of Large Reasoning Models via Fine-Tuning Signals
 - [[arXiv](https://arxiv.org/pdf/2603.25284v1)] SliderQuant: Accurate Post-Training Quantization for LLMs 
