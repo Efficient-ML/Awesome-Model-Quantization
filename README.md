@@ -10,7 +10,7 @@ This repo collects papers, documents, and codes about model quantization for any
   - [2025](#2025)
   - [2024](#2024)
   - [2023](#2023)
-  - [2022–2015](#2022-2015)
+  - [2022–2015](#2022)
 - [Related Repositories](#related-repositories)
 
 ## Benchmarks
